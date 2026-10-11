@@ -66,29 +66,48 @@ py-4
       >
         {/* LOGO */}
 
-        <Link href="/">
-          <motion.h1
-            whileHover={{
-              scale: 1.08,
-            }}
-            className="
-text-2xl
-sm:text-3xl
-font-bold
-tracking-wider
-cursor-pointer
-text-transparent
-bg-clip-text
-bg-gradient-to-r
-from-blue-400
-via-cyan-300
-to-purple-400
-hover:drop-shadow-[0_0_15px_rgba(34,211,238,0.8)]
-"
-          >
-            VAELTHOR
-          </motion.h1>
-        </Link>
+        
+<Link href="/" className="inline-block">
+  <motion.div
+    whileHover={{ scale: 1.04 }}
+    className="flex flex-col items-center cursor-pointer leading-none"
+  >
+    <h1
+      className="
+        text-2xl
+        sm:text-3xl
+        font-bold
+        tracking-wider
+        text-transparent
+        bg-clip-text
+        bg-gradient-to-r
+        from-blue-400
+        via-cyan-300
+        to-purple-400
+        hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.6)]
+      "
+    >
+      VAELTHOR
+    </h1>
+
+    <span
+      className="
+        mt-1
+        text-[9px]
+        sm:text-[11px]
+        font-semibold
+        tracking-[0.38em]
+        uppercase
+        text-cyan-300
+        text-center
+        pl-[0.38em]
+      "
+    >
+      TECHNOLOGIES
+    </span>
+  </motion.div>
+</Link>
+
 
         {/* Desktop Menu */}
 
