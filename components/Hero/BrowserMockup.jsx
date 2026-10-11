@@ -81,7 +81,7 @@ mx-auto
             "
           >
             <Globe size={14} />
-            <span className="truncate">www.vaelthor.com</span>
+            <span className="truncate">www.vaelthortechnology.com</span>
           </div>
 
         </div>
@@ -114,25 +114,25 @@ mx-auto
             <Card
               icon={<Users size={18} />}
               title="Clients"
-              value="120+"
+              value="10+"
             />
 
             <Card
               icon={<TrendingUp size={18} />}
               title="Growth"
-              value="+245%"
+              value="+100%"
             />
 
             <Card
               icon={<Code2 size={18} />}
               title="Projects"
-              value="80+"
+              value="10+"
             />
 
             <Card
               icon={<Globe size={18} />}
               title="Websites"
-              value="50+"
+              value="10+"
             />
 
           </div>
